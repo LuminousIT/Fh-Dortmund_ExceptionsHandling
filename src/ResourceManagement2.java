@@ -33,16 +33,4 @@ public class ResourceManagement2 {
 
 }
 
-/**
- * In the try-with-resources method, there is no use of the finally block. 
- * The file resource is opened in try block inside small brackets. 
- * Only the objects of those classes can be opened within the block which implements the 
- * AutoCloseable interface, and those objects should also be local. 
- * The resource will be closed automatically regardless of whether the try statement 
- * completes normally or abruptly. 
 
- * Syntax: 
- * The following example reads the first line from a file. 
- * It uses an instance of BufferedReader to read data from the file. 
- * BufferedReader is a resource that must be closed after the program is finished with it: 
- * **/
