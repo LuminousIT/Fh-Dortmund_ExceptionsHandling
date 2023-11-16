@@ -29,10 +29,4 @@ public class ResourceManagement {
 	}
 }
 
-/**
- * In this example, the try-with-resources statement contains two declarations that are separated by a 
- * semicolon: ZipFile and BufferedWriter. When the block of code that directly follows it terminates, 
- * either normally or because of an exception, the close methods of the BufferedWriter and ZipFile objects 
- * are automatically called in this order. Note that the close methods of resources are called 
- * in the opposite order of their creation.
- * **/
+
